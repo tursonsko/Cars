@@ -37,5 +37,6 @@ public class PriceCalculator {
                 .reduce(BigDecimal.ZERO, (subtotal, price) -> subtotal.add(price));
 
     }
+    //to revert
 
 }
